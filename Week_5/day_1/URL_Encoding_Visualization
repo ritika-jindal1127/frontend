@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>URL Encoding Visualization</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      background-color: #f2f2f2;
+    }
+    h1 {
+      color: #333;
+    }
+    .example-box {
+      background-color: #fff;
+      border-left: 6px solid #4CAF50;
+      padding: 15px 20px;
+      margin: 20px 0;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .label {
+      font-weight: bold;
+      color: #555;
+    }
+    .url {
+      font-family: "Courier New", monospace;
+      color: #222;
+      word-break: break-all;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🔗 URL Encoding Visualization</h1>
+
+  <div class="example-box">
+    <div class="label">Before Encoding:</div>
+    <div class="url">https://example.com/search?query=C++ programming & tips</div>
+  </div>
+
+  <div class="example-box">
+    <div class="label">After Encoding:</div>
+    <div class="url">https://example.com/search?query=C%2B%2B%20programming%20%26%20tips</div>
+  </div>
+
+</body>
+</html>
