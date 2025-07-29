@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Emoji Display Gallery</title>
+  
+</head>
+<body>
+
+  <div class="container">
+    <h1>😊 Emoji Display Gallery</h1>
+
+    
+        <h2> Direct Emoji Character</h2>
+        <div class="emoji">😊</div>
+        
+      <!-- Unicode Entity -->
+      
+        <div class="method-title"> Unicode Entity Code</div>
+        <div class="emoji">&#x1F60A;</div>
+
+
+    
+  </div>
+
+</body>
+</html>
