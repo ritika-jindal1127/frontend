@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASCII values</title>
+    <style>
+        table{
+            border-collapse: collapse;
+        }
+        th,tr{
+            border: 1px solid black;  
+        }
+    </style>
+</head>
+<body>
+    <h1>ASCII Values</h1>
+
+    <table>
+        <tr>
+            <th>Character</th>
+            <th>ASCII Value</th>
+        </tr>
+        <tr>
+            <th>A</th>
+            <th>65</th>
+        </tr>
+        <tr>
+            <th>B</th>
+            <th>66</th>
+        </tr>
+        <tr>
+            <th>C</th>
+            <th>67</th>
+        </tr>
+        <tr>
+            <th>a</th>
+            <th>97</th>
+        </tr>
+        <tr>
+            <th>0</th>
+            <th>48</th>
+        </tr>
+
+    </table>
+</body>
+</html>
